@@ -14,3 +14,10 @@ body{
   flex-direction: column;
   margin: 10px;
 }
+li{
+ list-style-type: none;
+ margin: 30px;
+}
+ul{
+  margin: 10px;
+}
