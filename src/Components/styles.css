@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  background: dodgerBlue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0;
+}
+.create{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
