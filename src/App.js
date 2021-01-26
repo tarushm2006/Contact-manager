@@ -6,7 +6,7 @@ import Display from "./Components/display.jsx";
 export default function App() {
   const [list,setList] = useState([]);
   function add(data){
-  setList(...list,data);
+  setList([...list,data]);
   }
   return (
     <div>

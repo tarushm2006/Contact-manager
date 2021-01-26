@@ -2,10 +2,11 @@ import React from "react";
 import "./styles.css";
 
 function Display(props){
+  const arr = props.data;
 return(
   <ul>
-  {props.data.map((item)=>{
-    <li>{item}</li>
+  {arr.map((val,index)=>{
+    <li key={index}>{val}</li>
   })}
   </ul>
 )
